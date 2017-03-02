@@ -37,8 +37,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(298, 279);
             this.Name = "RadForm1";
+            // 
+            // 
+            // 
+            this.RootElement.ApplyShapeToControl = true;
             this.Text = "RadForm1";
             this.ThemeName = "ControlDefault";
+            this.Load += new System.EventHandler(this.RadForm1_Load);
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
             this.ResumeLayout(false);
 

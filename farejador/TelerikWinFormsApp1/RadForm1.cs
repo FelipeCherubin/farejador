@@ -15,5 +15,10 @@ namespace TelerikWinFormsApp1
         {
             InitializeComponent();
         }
+
+        private void RadForm1_Load(object sender, EventArgs e)
+        {
+            int q;
+        }
     }
 }
